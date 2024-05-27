@@ -15,7 +15,7 @@ const llamarDigimones = () => {
                 resolve(data);
             })
             .catch((error)=> {
-                console.log(`El error es: ${error}`);
+                reject(error);
             })
 
     });
